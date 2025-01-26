@@ -5,13 +5,13 @@ function updateInclude() {
     var currentDate = new Date();
 
     // Subtract one hour
-    currentDate.setHours(currentDate.getHours() - 1);
+    currentDate.setHours(currentDate.getUTCHours() - 1);
 
     // Get the current day, month, and year
-    var day = currentDate.getDate();
-    var month = currentDate.getMonth() + 1; // Months are zero-based, add 1 to get the correct month number
-    var year = currentDate.getFullYear();
-    var hour = currentDate.getHours();
+    var day = currentDate.getUTCDate();
+    var month = currentDate.getUTCMonth() + 1; // Months are zero-based, add 1 to get the correct month number
+    var year = currentDate.getUTCFullYear();
+    var hour = currentDate.getUTCHours();
 
     // Format the day, month, and hour to always have two digits
     day = day < 10 ? '0' + day : day;
