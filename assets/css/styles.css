@@ -1,0 +1,11 @@
+#textToCopy {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#copyButton {
+    padding: 10px 20px;
+    cursor: pointer;
+}
