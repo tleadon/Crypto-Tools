@@ -8,5 +8,5 @@ permalink: /CryptoKolScan/
 This is the results of the kolscan scanner:
 
 <pre>
-<!-- {% include results/names_and_addresses_1_26_2025.json %} -->
+{% include results/names_and_addresses_1_26_2025.json %}
 </pre>
