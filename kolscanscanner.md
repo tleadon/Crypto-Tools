@@ -3,6 +3,9 @@ layout: page
 title: KolScan Scanner
 permalink: /KolScanScanner/
 ---
+<head>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
 
 # JSON Data
 This is the results of the kolscan scanner:
