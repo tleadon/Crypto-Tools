@@ -19,7 +19,7 @@ function updateInclude() {
     hour = hour < 10 ? '0' + hour : hour;
 
     // Construct the filename
-    var filename = `names_and_addresses_${day}_${month}_${year}.json`;
+    var filename = `names_and_addresses_${hour}_${day}_${month}_${year}.json`;
 
     // Update the HTML content
     document.getElementById("textToCopy").innerHTML = `{% include results/${filename} %}`;
