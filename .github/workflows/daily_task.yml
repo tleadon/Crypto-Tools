@@ -29,4 +29,4 @@ jobs:
       # Convert Jupyter notebook to script and run it
       - name: Run Jupyter Notebook
         run: |
-          jupyter nbconvert --to script CryptoKolScan/CryptoKolScan.ipynb
+          jupyter nbconvert --to script CryptoKolScan/KolScanScanner.ipynb
